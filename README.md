@@ -1,8 +1,8 @@
-# LearnDash Revisions Plugin
+# LearnDash Revisions
 
 ## Description
 
-The LearnDash Revisions plugin enables the revisions feature for LearnDash course post types in WordPress. It also limits the number of revisions saved for these post types to improve performance and manage database size.
+The LearnDash Revisions enables the revisions feature for LearnDash course post types in WordPress. It also limits the number of revisions saved for these post types to improve performance and manage database size.
 
 ## Installation
 
