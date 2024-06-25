@@ -2,7 +2,7 @@
 
 ## Description
 
-The LearnDash Revisions plugin enables the revisions feature for LearnDash course post types in WordPress. This allows you to track changes and revert to previous versions of courses, lessons, topics, quizzes, and assignments created with LearnDash.
+The LearnDash Revisions plugin enables the revisions feature for LearnDash course post types in WordPress. It also limits the number of revisions saved for these post types to improve performance and manage database size.
 
 ## Installation
 
@@ -32,9 +32,12 @@ Once the plugin is activated, revisions will be enabled for the following LearnD
 - Quizzes (`sfwd-quiz`)
 - Assignments (`sfwd-assignment`)
 
-You can now track changes and revert to previous versions of these post types.
+By default, the plugin limits the number of revisions saved for these post types to 5. You can change this limit by modifying the number in the `learndash_revision_limit` function in the plugin code.
 
 ## Changelog
+
+### Version 1.1
+- Added a feature to limit the number of revisions saved.
 
 ### Version 1.0
 - Initial release.
@@ -50,4 +53,3 @@ This plugin is licensed under the [MIT License](https://opensource.org/licenses/
 ## Support
 
 If you encounter any issues or have questions about this plugin, please contact jessesantamina@icloud.com.
-
